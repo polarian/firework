@@ -71,7 +71,7 @@ class TopicControllerTest {
     }
 
     @Test
-    fun `TEST_getTopicList_RETURN_emptyResponse_WHEN_there_are_no_topics`() {
+    fun `TEST_getTopicList_RETURN_emptyResponse_WHEN_there_are_no_topic`() {
 
         Mockito.`when`(service.getTopicList()).thenReturn(emptyList())
 
